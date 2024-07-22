@@ -2,3 +2,8 @@
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Description:
+A non-comparative sorting algorithm that sorts numbers by processing individual digits. It distributes numbers into buckets according to their radix and then reassembles them.
+Time Complexity: 
+𝑂(𝑛 ⋅ 𝑘)
+O(n⋅k) where k is the number of digits in the largest number
