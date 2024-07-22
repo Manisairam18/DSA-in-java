@@ -27,4 +27,10 @@ public class SelectionSort {
 
 }
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Description: 
+Divides the input list into two parts: a sorted sublist of items which is built up from left to right at the front of the list, and a sublist of the remaining unsorted items.
+The algorithm repeatedly selects the smallest (or largest) element from the unsorted sublist, swaps it with the leftmost unsorted element, and moves the sublist boundaries one element to the right.
+Time Complexity: 
+            𝑂(𝑛2)
+
 
