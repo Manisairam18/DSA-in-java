@@ -1,1 +1,27 @@
+public class LinearSearch {
+
+	public static void main(String[] args) {
+
+		int arr[] = { 10, 20, 30, 40, 50 };
+		int l = arr.length;
+		int key = 50;
+		int i = 0;
+		while (i < l) {
+
+			if (key == arr[i]) {
+				System.out.println(" Element found  : " + key);
+				break;
+			}
+			i = i + 1;
+		}
+		if (i == l) {
+			System.out.println(" Element not found :  " + key);
+		}
+
+	}
+
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
