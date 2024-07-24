@@ -9,8 +9,8 @@ public class LinearSearch {
 		while (i < l) {
 
 			if (key == arr[i]) {
-				System.out.println(" Element found  : " + key);
-				break;
+                       System.out.println(" Element " + key + " found ." + " At the index of : " + i);			
+                             break;
 			}
 			i = i + 1;
 		}
